@@ -1,0 +1,28 @@
+.central {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    margin: 5px;
+}
+
+.botones {
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+    align-items: center;
+}
+
+.fechasInicio {
+    display: inline-block;
+    padding-right: inherit;
+}
+
+.fechasFin {
+    display: inline-block;
+    padding-left: inherit;
+}

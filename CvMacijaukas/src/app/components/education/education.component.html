@@ -1,0 +1,62 @@
+<p>education works!</p>
+<div class="central">
+    <h3>Formación Academica</h3>
+    <ul>
+            <div class="row">
+                <li class="col-2">
+                    <img src="" class="img-fluid imagenfoto" alt="Foto Perfil">
+                </li>
+                <div class="col-8" style="margin: auto;">
+                    <h5>SeProgramar y YoProgramo 4.0</h5>
+                    <p style="display: inline;">Curso de programacion web Full Stack Jr</p><br>
+                    <p style="display: inline;">(10/2022 - 05/2023)</p><br>
+                    <p style="display: inline;" *ngIf="isExpand">
+                        Aprendisaje de arquitectura WEB distribuida(Frontend y Backend), Bases de Datos y JSON, Programación Orientada a Objetos (POO), Lenguaje HTML, CSS, programacion en Javascript, TypeScript, Java y uso de frameworks como Angular y Spring Boot.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <li class="col-2">
+                    <img src="" class="img-fluid imagenfoto" alt="Foto Perfil">
+                </li>
+                <div class="col-8" style="margin: auto;">
+                    <h5>Taller MELI</h5>
+                    <p style="display: inline;">Curso de capacitacion, gestion y manejo de Mercado Libre </p><br>
+                    <p style="display: inline;">(07/2021 - 09/2021)</p><br>
+                    <p style="display: inline;" *ngIf="isExpand">
+                        Conocimientos sobre las herramientas, funcionalidades y mejores prácticas para maximizar el rendimiento y la eficiencia en el uso de Mercado Libre. Creación de anuncios efectivos y atractivos hasta la gestión de inventario y precios. Manejo de consultas y reclamos de clientes, resolución de conflictos y gestión de la reputación. Comprensión de las métricas y análisis disponibles de la aplicacion.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <li class="col-2">
+                    <img src="" class="img-fluid imagenfoto" alt="Foto Perfil">
+                </li>
+                <div class="col-8" style="margin: auto;">
+                    <h5>Capacitacion Siemens S.A.</h5>
+                    <p style="display: inline;">Curso corto sobre circuitos electricos </p><br>
+                    <p style="display: inline;">(09/2018)</p><br>
+                    <p style="display: inline;" *ngIf="isExpand">
+                        Capacitacion sobre circuitos electricos domiciliarios e industriales
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <li class="col-2">
+                    <img src="" class="img-fluid imagenfoto" alt="Foto Perfil">
+                </li>
+                <div class="col-8" style="margin: auto;">
+                    <h5>ECEA - Tecnicatura en electronica</h5>
+                    <p style="display: inline;">Aprendisaje y entendimientos de: instalaciones electricas, diseño y reparacion de dispositivos electronicos,
+                    programacion, entre otras cosas</p><br>
+                    <p style="display: inline;">(03/2014 - 12/2020)</p><br>
+                    <p style="display: inline;" *ngIf="isExpand">
+                        Aprendisaje de fundamentos de electrónica, diseño y análisis de circuitos, sistemas digitales, instrumentación y mediciones, electrónica de potencia, comunicaciones electrónicas y programación de microcontroladores.
+                    </p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-success" *ngIf="isHidden" (click)="onExpand()">Expandir</button>
+            <button type="button" class="btn btn-outline-success" *ngIf="isExpand" (click)="onHidden()">Ocultar</button>
+
+    </ul>
+</div>

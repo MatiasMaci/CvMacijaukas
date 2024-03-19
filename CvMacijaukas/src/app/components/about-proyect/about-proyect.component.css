@@ -1,0 +1,9 @@
+.diseño {
+    max-width: 500px;
+    display: block;
+    text-align: center;
+    background-color: beige;
+    margin: 100px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
