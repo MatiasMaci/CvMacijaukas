@@ -1,22 +1,28 @@
 header {
     background-color: black;
+
 }
 
 .centrar {
     display: flex;
     align-items: center;
-    margin-right: 5px;
-}
-
-.btn {
-    border-width: medium;
-    margin: 5px;
+    justify-content: center;
 }
 
 img {
     margin: 5px;
 }
 
+.logo{
+    border-radius: 70%;
+    box-shadow: 3px gray;
+    margin-left: 10px;
+}
+
+.derecha{
+    text-align: right;
+}
+/*
 @media(min-width: 381px) {
     .derecha {
         text-align: end;
@@ -27,4 +33,4 @@ img {
     .derecha {
         text-align: center;
     }
-}
+}*/

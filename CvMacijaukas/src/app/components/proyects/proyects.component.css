@@ -1,0 +1,21 @@
+.central {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.margen {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+}
+
+.botones {
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+    align-items: center;
+}

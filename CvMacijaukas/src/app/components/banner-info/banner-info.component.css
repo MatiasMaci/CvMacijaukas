@@ -13,3 +13,7 @@
     margin: 5px;
     text-align: center;
 }
+
+.banner{
+    max-height: 400px;
+}
