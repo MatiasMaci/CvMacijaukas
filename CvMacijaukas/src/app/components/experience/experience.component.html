@@ -1,63 +1,65 @@
 <div class="central">
-    <h2>Experiencia Profesional</h2>
+    <h3>Experiencia Profesional <i class="bi bi-tools"></i></h3>
 
-    <div class="row" style="margin-bottom: 5px;">
-        <div class="col-4 col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="../../../assets/fotoPerfil.png" class="img-fluid " alt="Foto Perfil">
+    <div class="row">
+        <div class="col-3 col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding: 5px;">
+            <img src="../../../assets/gia.jpg" class="img-fluid " alt="Foto Perfil">
         </div>
-        <div class="col-8" style="margin: auto;">
+        <div class="col-9" style="margin: auto; padding: 5px;">
             <h5>Tecnico de campo e instalaciones</h5>
             <p style="display: inline;">GIA International </p>
             <p style="display: inline;">(06/2023 - 02/2024)</p>
-            <p style="display: inline;" *ngIf="isExpand"><small>
+            <p class="collapse" id="ExperienceBtn"><small>
                 Trabaje en el campo de la seguridad electrónica, donde me encargue de la instalación de cámaras de
                 vigilancia, cerraduras electromagnéticas y tótems de seguridad para edificios, incluyendo la integracion de sistemas de control de acceso y de alarma.</small>
             </p>
         </div>
     </div>
     <div class="row">
-        <div class="col-4 col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="../../../assets/fotoPerfil.png" class="img-fluid imagenfoto" alt="Foto Perfil">
+        <div class="col-3 col-xs-2 col-sm-2 col-md-2 col-lg-2"  style="padding: 5px;">
+            <img src="../../../assets/prestaciones.png" class="img-fluid imagenfoto" alt="Foto Perfil">
         </div>
-        <div class="col-8" style="margin: auto;">
+        <div class="col-9" style="margin: auto; padding: 5px;">
             <h5>Reparaciones y mantenimiento de equipos de soldadura</h5>
             <p style="display: inline;">Prestaciones Electricas </p>
             <p style="display: inline;">(04/2022 - 02/2023)</p>
-            <p style="display: inline;" *ngIf="isExpand"><small>
-                Trabaje en la reparación de equipos, como soldadoras de arco, MIG/MAG y TIG, entre otros, junto al mantenimiento preventivo, limpieza y calibración de los mismos</small>
+            <p class="collapse" id="ExperienceBtn"><small>
+                Trabaje en la reparación de equipos, como soldadoras de arco, MIG/MAG y TIG, entre otros, junto al mantenimiento preventivo, limpieza y calibración de los mismos.</small>
             </p>
         </div>
     </div>
     <div class="row">
-        <div class="col-4 col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="../../../assets/fotoPerfil.png" class="img-fluid imagenfoto" alt="Foto Perfil">
+        <div class="col-3 col-xs-2 col-sm-2 col-md-2 col-lg-2"  style="padding: 5px;">
+            <img src="../../../assets/Logo Tato II.jpg" class="img-fluid imagenfoto" alt="Foto Perfil">
         </div>
-        <div class="col-8" style="margin: auto;">
+        <div class="col-9" style="margin: auto; padding: 5px;">
             <h5>Gerente asistente y ayudante</h5>
             <p style="display: inline;">Restaurante TATO II </p>
             <p style="display: inline;">(02/2022 - 07/2022)</p>
-            <p style="display: inline;" *ngIf="isExpand"><small>
+            <p class="collapse" id="ExperienceBtn"><small>
                 Trabaje en la gerencia del local, ayudante de cocina y manejo de caja. supervise las operaciones diarias, como la atención al cliente, seguimiento de pedidos y la gestión del inventario.</small>
             </p>
         </div>
     </div>
     <div class="row">
-        <div class="col-4 col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="../../../assets/fotoPerfil.png" class="img-fluid imagenfoto" alt="Foto Perfil">
+        <div class="col-3 col-xs-2 col-sm-2 col-md-2 col-lg-2"  style="padding: 5px;">
+            <img src="../../../assets/logoMlabares.jpeg" class="img-fluid imagenfoto" alt="Foto Perfil">
         </div>
-        <div class="col-8" style="margin: auto;">
+        <div class="col-9" style="margin: auto; padding: 5px;">
             <h5>Vendedor al publico y Administración de e-commerce</h5>
-            <p style="display: inline;">Prestaciones Electricas </p>
+            <p style="display: inline;">Jugueteria Malabares </p>
             <p style="display: inline;">(04/2020 - 01/2022)</p>
-            <p style="display: inline;" *ngIf="isExpand"><small>
+            <p class="collapse" id="ExperienceBtn"><small>
                 Trabaje como vendedor en atención al publico y en la administración de la cuenta de Mercado Libre de esta, encargándome de atender consultas, resolver problemas, proporcionar información sobre los productos, la coordinaacion de envíos y gestion de la reputación.</small>
             </p>
         </div>
     </div>
     <div style="display: flex; justify-content: center; margin: 7px;">
-        <button type="button" style="display: inline-flex; text-align: center;" class="btn btn-outline-light"
-            *ngIf="isHidden" (click)="onExpand()">Expandir</button>
-        <button type="button" class="btn btn-outline-light" *ngIf="isExpand" (click)="onHidden()">Ocultar</button>
+        <button type="button" style="text-align: center;" class="btn btn-outline-light" data-bs-toggle="collapse"
+            data-bs-target="#ExperienceBtn" (click)="onExpand()">
+            <p style="margin: auto;" *ngIf="isExpand">Ocultar</p>
+            <p *ngIf="!isExpand" style="margin: auto;">Expandir</p>
+        </button>
     </div>
 
 </div>

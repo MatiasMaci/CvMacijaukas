@@ -1,11 +1,33 @@
 <div class="central">
-    <h3>Proyectos</h3>
+    <h3>Proyectos <i class="bi bi-gear"></i></h3>
     <ul>
             <div class="row">
-                <li class="col-10" style="margin-bottom: 10px;">
-                    <h5>Portfolio Web</h5>
-                    <p style="display: inline;">Aplicacion web diseñada para el proyecto final integrador del curso YoProgramo </p>
+                <li class="col-10" style="margin-bottom: 3px;">
+                    <h5>Portfolio Web A.P.</h5>
+                    <p class="collapse" id="ProyectBtn">Aplicacion web con arquitectura distribuida diseñada para el proyecto final integrador del curso YoProgramo (No es este Portfolio)</p>
+                </li>
+                <li class="col-10" style="margin-bottom: 3px;">
+                    <h5>Pic Security</h5>
+                    <p class="collapse" id="ProyectBtn">
+                    Sistema de seguridad y control diseñado para empresas para la entrada y salida del personal, con el uso de microcontroladores y tarjetas Mifare conectada a una base de datos</p>
+                </li>
+                <li class="col-10" style="margin-bottom: 3px;">
+                    <h5>Parlante 100W Full</h5>
+                    <p class="collapse" id="ProyectBtn">
+                    Parlante con potencia de 100W RMS junto con mezclador de señales y ecualizador de 10 canales</p>
+                </li>
+                <li class="col-10" style="margin-bottom: 3px;">
+                    <h5>Plaqueta Programable</h5>
+                    <p class="collapse" id="ProyectBtn">
+                    Hardware con display 8x8 y sensor de movimiento para probar funciones programables y hacer mini juegos</p>
                 </li>
         </div>
     </ul>
+    <div style="display: flex; justify-content: center; margin: 7px;">
+        <button type="button" style="text-align: center;" class="btn btn-outline-light" data-bs-toggle="collapse"
+            data-bs-target="#ProyectBtn" (click)="onExpand()">
+            <p style="margin: auto;" *ngIf="isExpand">Ocultar</p>
+            <p *ngIf="!isExpand" style="margin: auto;">Expandir</p>
+        </button>
+    </div>
 </div>

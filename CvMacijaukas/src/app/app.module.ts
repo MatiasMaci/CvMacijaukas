@@ -14,6 +14,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { HomeComponent } from './components/home/home.component';
 import { AchievementsComponent } from './components/achievements/achievements.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ContactInfoComponent } from './components/contact-info/contact-info.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     AboutProyectComponent,
     ExperienceComponent,
     HomeComponent,
-    AchievementsComponent
+    AchievementsComponent,
+    ContactInfoComponent
   ],
   imports: [
     BrowserModule,

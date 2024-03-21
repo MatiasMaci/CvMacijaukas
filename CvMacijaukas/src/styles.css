@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     background-image: url("assets/34257-espacio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 div.row {
     --bs-gutter-x: 0; /* Resuelve un problema de espacion en las filas y columnas*/

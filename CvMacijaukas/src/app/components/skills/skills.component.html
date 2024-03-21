@@ -1,25 +1,131 @@
 <div class="central">
-    <h3>Habilidades</h3>
+    <h3>Habilidades <i class="bi bi-ui-checks"></i></h3>
     <div class="row centrar">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" id="SkillsBtn">
             <!--Repeticion de las habilidades encontradas en una lista-->
-            <circle-progress [percent]="50" [radius]="100" [space]="10"
-                [imageSrc]="'../../../assets/proteus.png'" [title]="'Liderazgo'" [showImage]="true"
-                [showUnits]="false" [showSubtitle]="false" [showImage]="false" [imageHeight]="100" [imageWidth]="120"
-                [outerStrokeGradient]="true" [outerStrokeGradientStopColor]="'#53a9ff'" [outerStrokeWidth]="16"
-                [innerStrokeWidth]="3" [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+            <circle-progress [percent]="50" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''"
+                [title]="'Programacion'" [subtitle]="'general'" [showUnits]="false" [showSubtitle]="true" [showImage]="false"
+                [imageHeight]="100" [imageWidth]="120" [outerStrokeGradient]="true"
+                [outerStrokeGradientStopColor]="'#53a9ff'" [outerStrokeWidth]="14" [innerStrokeWidth]="3"
+                [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'" [animation]="true"
                 [animationDuration]="1000">
             </circle-progress>
         </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3">
+            <circle-progress [percent]="75" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''"
+                [title]="'Electronica'" [subtitle]="'general'" [showUnits]="false" [showSubtitle]="true" [showImage]="false"
+                [imageHeight]="100" [imageWidth]="120" [outerStrokeGradient]="true"
+                [outerStrokeGradientStopColor]="'#53a9ff'" [outerStrokeWidth]="14" [innerStrokeWidth]="3"
+                [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                [animationDuration]="1000">
+            </circle-progress>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3">
+            <circle-progress [percent]="70" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''"
+                [title]="'Ingles'" [subtitle]="''" [showUnits]="false" [showSubtitle]="false" [showImage]="false"
+                [imageHeight]="100" [imageWidth]="120" [outerStrokeGradient]="false"
+                [outerStrokeGradientStopColor]="'#53a9ff'" [outerStrokeWidth]="14" [innerStrokeWidth]="3"
+                [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                [animationDuration]="1000">
+            </circle-progress>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" id="SkillsBtn">
+            <circle-progress [percent]="85" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''"
+                [title]="'Liderazgo'" [subtitle]="'%'" [showUnits]="false" [showSubtitle]="false" [showImage]="false"
+                [imageHeight]="100" [imageWidth]="120" [outerStrokeGradient]="true"
+                [outerStrokeGradientStopColor]="'#53a9ff'" [outerStrokeWidth]="14" [innerStrokeWidth]="3"
+                [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                [animationDuration]="1000">
+            </circle-progress>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse"  id="SkillsBtn">
+            <circle-progress [percent]="80" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''" [title]="'Resolucion'"
+                [subtitle]="'de problemas'" [showUnits]="false" [showSubtitle]="true" [showImage]="false" [imageHeight]="100"
+                [imageWidth]="120" [outerStrokeGradient]="true" [outerStrokeGradientStopColor]="'#53a9ff'"
+                [outerStrokeWidth]="14" [innerStrokeWidth]="3" [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="1000">
+            </circle-progress>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" id="SkillsBtn">
+            <circle-progress [percent]="75" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''" [title]="'Gestion'"
+                [subtitle]="'de tiempos'" [showUnits]="false" [showSubtitle]="true" [showImage]="false" [imageHeight]="100"
+                [imageWidth]="120" [outerStrokeGradient]="true" [outerStrokeGradientStopColor]="'#53a9ff'"
+                [outerStrokeWidth]="14" [innerStrokeWidth]="3" [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="1000">
+            </circle-progress>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" id="SkillsBtn">
+            <circle-progress [percent]="90" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''" [title]="'Sociabilidad'"
+                [subtitle]="'%'" [showUnits]="false" [showSubtitle]="false" [showImage]="false" [imageHeight]="100"
+                [imageWidth]="120" [outerStrokeGradient]="true" [outerStrokeGradientStopColor]="'#53a9ff'"
+                [outerStrokeWidth]="14" [innerStrokeWidth]="3" [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="1000">
+            </circle-progress>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" id="SkillsBtn">
+            <circle-progress [percent]="100" [radius]="80" [space]="5" [responsive]="true" [imageSrc]="''" [title]="'Confiabilidad'"
+                [subtitle]="'%'" [showUnits]="false" [showSubtitle]="false" [showImage]="false" [imageHeight]="100"
+                [imageWidth]="120" [outerStrokeGradient]="true" [outerStrokeGradientStopColor]="'#53a9ff'"
+                [outerStrokeWidth]="14" [innerStrokeWidth]="3" [outerStrokeColor]="'blue'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="1000">
+            </circle-progress>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <h4>Ingles</h4>
+    <div class="row" style="margin: auto; justify-content: center;" >
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3" style="padding: 3px;">
+            <h4>HTML y CSS</h4>
             <div class="progress">
                 <div class="progress-bar progress-bar-striped progress-bar-animated background-color:blue"
-                    role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
+                    role="progressbar" style="width: 85%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
                 </div>
             </div>
         </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" style="padding: 3px;" id="SkillsBtn">
+            <h4>Javascript</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated background-color:blue" role="progressbar"
+                    style="width: 50%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" style="padding: 3px;" id="SkillsBtn">
+            <h4>C</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated background-color:blue"
+                    role="progressbar" style="width: 60%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" style="padding: 3px;" id="SkillsBtn">
+            <h4>Java</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated background-color:blue"
+                    role="progressbar" style="width: 45%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 collapse" style="padding: 3px;" id="SkillsBtn">
+            <h4>Database</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated background-color:blue"
+                    role="progressbar" style="width: 40%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3" style="padding: 3px;">
+            <h4>Excel</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated background-color:blue" role="progressbar"
+                    style="width: 60%" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin: 7px;">
+        <button type="button" style="text-align: center;" class="btn btn-outline-light" data-bs-toggle="collapse"
+            data-bs-target="#SkillsBtn" (click)="onExpand()">
+            <p style="margin: auto;" *ngIf="isExpand">Ocultar</p>
+            <p *ngIf="!isExpand" style="margin: auto;">Expandir</p>
+        </button>
     </div>
 </div>

@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./proyects.component.css']
 })
 export class ProyectsComponent {
+  isExpand = false;
+  isHidden = true;
+  //Funcion para poder expandir experiencia
+  onExpand() {
+    this.isExpand = !this.isExpand;
 
+  }
 }

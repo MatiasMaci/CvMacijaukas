@@ -6,6 +6,10 @@
     border-radius: 10px;
 }
 
+.row{
+    margin-bottom: 3px;
+}
+
 img {
     margin: 5px;
 }

@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
+  isExpand = false;
+  isHidden = true;
+  //Funcion para poder expandir experiencia
+  onExpand() {
+    this.isExpand = !this.isExpand;
 
+  }
 }

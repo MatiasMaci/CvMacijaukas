@@ -10,13 +10,7 @@ export class ExperienceComponent {
   isHidden = true;
   //Funcion para poder expandir experiencia
   onExpand() {
-    this.isExpand = true;
-    this.isHidden = !this.isExpand;
-  }
+    this.isExpand =! this.isExpand; 
 
-  //Funcion para poder ocultar experiencia
-  onHidden() {
-    this.isExpand = false;
-    this.isHidden = !this.isExpand;
   }
 }
